@@ -4,7 +4,12 @@
 <h1 align="center">DEV TIPS</h1>
 <h3 align="center">Le site regroupant un maximum d'astuce et de cours sur le développement web !</h3>
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Crée par :</h3>
+<a href=""> Salim GLENAC </a>
+
+<h3 align="left">Remerciement :</h3>
+<a href=""> Arthur </a>
+
 <p align="left">
 </p>
 
