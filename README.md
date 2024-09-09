@@ -1,8 +1,6 @@
 # devtips
 
-<div align = "center">
 ![fond-orange-ondule-degrade_23-2149121500](https://github.com/user-attachments/assets/e01809af-3636-41c3-a6b1-6bed483a97c0)
-</div>
 <h1 align="center">DEV TIPS</h1>
 <h3 align="center">Le site regroupant un maximum d'astuce et de cours sur le développement web !</h3>
 
