@@ -5,7 +5,7 @@
 <h3 align="center">Le site regroupant un maximum d'astuce et de cours sur le développement web !</h3>
 
 <h3 align="left">Crée par :</h3>
-<a href=""> Salim GLENAC </a>
+<a href="https://www.instagram.com/salim_glc/"> Salim GLENAC </a>
 
 <h3 align="left">Remerciement :</h3>
 <a href=""> Arthur </a>
