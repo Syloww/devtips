@@ -167,7 +167,7 @@ h3 {
     color: #ffffff;
     font-weight: bold;
     padding: 20px;
-    background: linear-gradient(rgba(255, 255, 255, 0), #1E1E1E), url(/images/fond-orange-ondule-degrade_23-2149121500.avif);
+    background-image: url(/images/fond-orange-ondule-degrade_23-2149121500.avif);
     border-radius: 30px;
     background-size: cover;
     width: 100%;
