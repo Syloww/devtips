@@ -1,7 +1,7 @@
 const textes = [
     "Besoin d'inspiration ?",
     "Deviens le meilleur codeur !",
-    "Les meilleurs astuce en HTML & CSS c'est ici !",
+    "Les meilleurs astuces en HTML & CSS c'est ici !",
     "A la recherche d'une librairie js pour vos sites ?",
 ];
 
