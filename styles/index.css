@@ -214,8 +214,14 @@ h3 {
     height: auto;
     border-radius: 10%;
 }
-
-
+/* iframe */
+iframe{
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #fb4c28;
+    margin: 30px;
+    border-width: 3px;
+}
 /* ANIMATIONS */
 .slide-in-left {
     -webkit-animation: slide-in-left 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;

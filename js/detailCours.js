@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const cours = dataCategorie[langage].find(c => c.numero === numero);
 
         if (cours) {
-            document.getElementById('courseTitle').innerText = cours.title;
-            document.getElementById('courseContent').innerText = cours.content;
+            document.getElementById('courseTitle').innerHTML = cours.title;
+            document.getElementById('courseContent').innerHTML = cours.content;
         } else {
             document.getElementById('courseTitle').innerText = 'Cours non trouvé';
             document.getElementById('courseContent').innerText = '';

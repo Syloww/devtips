@@ -5,7 +5,7 @@ const dataCategorie = [
         title: "Les cours HTML",
         content0: "<a href='detailCours.html?langage=html&numero=1'>Les bases HTML</a>",
         content1: "<a href='detailCours.html?langage=html&numero=2'>Les HTML</a>",
-        content2: "<a href='detailCours.html?langage=html&numero=3'>HTML</a>"
+        content2: "<a href='detailCours.html?langage=html&numero=3'>Allez plus loins</a>"
     },
     {
         id: "2",
