@@ -27,6 +27,13 @@ const dataCategorie = [
         content0: "<a href='detailCours.html?langage=php&numero=1'>Les bases PHP</a>",
         content1: "<a href='detailCours.html?langage=php&numero=2'>Le PHP</a>",
         content2: "<a href='detailCours.html?langage=php&numero=3'>PHP</a>"
+    },
+    {
+        id: "5",
+        title: "Les cours SQL",
+        content0: "<a href='detailCours.html?langage=php&numero=1'>Les bases SQL</a>",
+        content1: "<a href='detailCours.html?langage=php&numero=2'>Le SQL</a>",
+        content2: "<a href='detailCours.html?langage=php&numero=3'>SQL</a>"
     }
 ];
 
