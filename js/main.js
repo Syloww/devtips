@@ -13,7 +13,7 @@ function displayCourses(courses) {
         
         // Ajoute le titre du cours
         const titleElement = document.createElement('h2');
-        titleElement.innerText = course.title;
+        titleElement.innerHTML = course.title;
         courseElement.appendChild(titleElement);
         
         // Ajoute le contenu du cours en HTML
