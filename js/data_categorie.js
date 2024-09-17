@@ -17,23 +17,23 @@ const dataCategorie = [
     {
         id: "3",
         title: "Les cours JavaScript",
-        content0: "<h3><a href='detailCours.html?langage=js&numero=1' class='boutoncours'>Les bases JS</a><h3>",
-        content1: "<h3><a href='detailCours.html?langage=js&numero=2' class='boutoncours'>Le JS</a><h3>",
-        content2: "<h3><a href='detailCours.html?langage=js&numero=3' class='boutoncours'>JS</a><h3>"
+        content0: "<h3><a href='detailCours.html?langage=js&numero=1' class='boutoncours'>Les bases JS</a></h3>",
+        content1: "<h3><a href='detailCours.html?langage=js&numero=2' class='boutoncours'>Le JS</a></h3>",
+        content2: "<h3><a href='detailCours.html?langage=js&numero=3' class='boutoncours'>JS</a></h3>"
     },
     {
         id: "4",
         title: "Les cours PHP",
-        content0: "<a href='detailCours.html?langage=php&numero=1'>Les bases PHP</a>",
-        content1: "<a href='detailCours.html?langage=php&numero=2'>Le PHP</a>",
-        content2: "<a href='detailCours.html?langage=php&numero=3'>PHP</a>"
+        content0: "<h3><a href='detailCours.html?langage=php&numero=1'>Les bases PHP</a></h3>",
+        content1: "<h3><a href='detailCours.html?langage=php&numero=2'>Le PHP</a></h3>",
+        content2: "<h3><a href='detailCours.html?langage=php&numero=3'>PHP</a></h3>"
     },
     {
         id: "5",
         title: "Les cours SQL",
-        content0: "<h3><a href='detailCours.html?langage=php&numero=1' class='boutoncours'>Les bases PHP</a><h3>",
-        content1: "<h3><a href='detailCours.html?langage=php&numero=2' class='boutoncours'>Le PHP</a><h3>",
-        content2: "<h3><a href='detailCours.html?langage=php&numero=3' class='boutoncours'>PHP</a><h3>"
+        content0: "<h3><a href='detailCours.html?langage=php&numero=1' class='boutoncours'>Les bases SQL</a></h3>",
+        content1: "<h3><a href='detailCours.html?langage=php&numero=2' class='boutoncours'>Le SQL</a></h3>",
+        content2: "<h3><a href='detailCours.html?langage=php&numero=3' class='boutoncours'>SQL</a></h3>"
     }
 ];
 
