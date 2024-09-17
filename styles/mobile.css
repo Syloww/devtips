@@ -218,8 +218,28 @@ h3 {
     height: auto;
     border-radius: 10%;
 }
-
-
+/* bouttoncours */
+.boutoncours{
+    padding: 20px;
+    transition: 0.4s;
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+}
+.boutoncours:hover{
+    color: #fb4c28;
+    border-radius: 20px;
+    transform: scale(1.02, 1.02);
+}
+/* iframe */
+iframe{
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #fb4c28;
+    margin: 30px;
+    border-width: 3px;
+}
 /* ANIMATIONS */
 .slide-in-left {
     -webkit-animation: slide-in-left 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
