@@ -12,7 +12,7 @@ export const dataCategorie = {
 
 
             "<br><h2>Chapitre 2 : Structure de base d'une page HTML</h2>"+
-            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+            "<br><p><b>La balise <span>!DOCTYPE html<span></b></p>"+
             "<br> <iframe width='90%' height='720' src='https://www.youtube.com/embed/hIEZ8xpdBts' title='Comprendre TOUTES les balises HTML en 13 minutes' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"+
             "<br><b>Resumé :</b>"+
 
@@ -29,13 +29,48 @@ export const dataCategorie = {
 
 
             "<br><h2>Chapitre 6 : Images</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+
+            
+            "<br><h2>Chapitre 7 : Tableaux</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+            
+
+            "<br><h2>Chapitre 8 : Formulaires</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+
+
+            "<br><h2>Chapitre 9 : Conteneurs et Sections</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+
+
+            "<br><h2>Chapitre 10 : Multimédia</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+
+
+            "<br><h2>Chapitre 11 : Iframes</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+
+
+            "<br><h2>Chapitre 12 : Attributs globaux</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+
+
+            "<br><h2>Chapitre 13 : Les métadonnées et SEO</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+
+
+            "<br><h2>Chapitre 14 : Accessibilité en HTML</h2>"+
             "<br><p><b> Sous titres du chapitre 1</b></p>"
         },
         { numero: 2, title: "Les HTML avancés", content: "Contenu des HTML avancés" },
         { numero: 3, title: "<h1>[HTML] Aller plus loin</h1>", content: "<h2>test</h2>" }
     ],
     css: [
-        { numero: 1, title: "Les bases CSS", content: "Contenu des bases CSS" },
+        {numero: 1, title: "<h1>Les bases du CSS</h1><hr>", content: "CSS est le langage que nous utilisons pour styliser un document HTML. Le CSS décrit comment les éléments HTML doivent être affichés. Ce tutoriel vous apprendra le CSS du basique au avancé."+
+            "<br><h2>Chapitre 1 : Introduction à CSS</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"
+        },
         { numero: 2, title: "Les CSS avancés", content: "Contenu des CSS avancés" },
         { numero: 3, title: "CSS3", content: "Contenu CSS3" }
     ],
