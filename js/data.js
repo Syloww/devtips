@@ -67,7 +67,10 @@ export const dataCategorie = {
         { numero: 3, title: "<h1>[HTML] Aller plus loin</h1>", content: "<h2>test</h2>" }
     ],
     css: [
-        { numero: 1, title: "Les bases CSS", content: "Contenu des bases CSS" },
+        {numero: 1, title: "<h1>Les bases du CSS</h1><hr>", content: "CSS est le langage que nous utilisons pour styliser un document HTML. Le CSS décrit comment les éléments HTML doivent être affichés. Ce tutoriel vous apprendra le CSS du basique au avancé."+
+            "<br><h2>Chapitre 1 : Introduction à CSS</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"
+        },
         { numero: 2, title: "Les CSS avancés", content: "Contenu des CSS avancés" },
         { numero: 3, title: "CSS3", content: "Contenu CSS3" }
     ],
