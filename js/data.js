@@ -12,7 +12,7 @@ export const dataCategorie = {
 
 
             "<br><h2>Chapitre 2 : Structure de base d'une page HTML</h2>"+
-            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+            "<br><p><b>La balise <span>!DOCTYPE html<span></b></p>"+
             "<br> <iframe width='90%' height='720' src='https://www.youtube.com/embed/hIEZ8xpdBts' title='Comprendre TOUTES les balises HTML en 13 minutes' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"+
             "<br><b>Resumé :</b>"+
 
@@ -29,6 +29,38 @@ export const dataCategorie = {
 
 
             "<br><h2>Chapitre 6 : Images</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+
+            
+            "<br><h2>Chapitre 7 : Tableaux</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+            
+
+            "<br><h2>Chapitre 8 : Formulaires</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+
+
+            "<br><h2>Chapitre 9 : Conteneurs et Sections</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+
+
+            "<br><h2>Chapitre 10 : Multimédia</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+
+
+            "<br><h2>Chapitre 11 : Iframes</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+
+
+            "<br><h2>Chapitre 12 : Attributs globaux</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+
+
+            "<br><h2>Chapitre 13 : Les métadonnées et SEO</h2>"+
+            "<br><p><b> Sous titres du chapitre 1</b></p>"+
+
+
+            "<br><h2>Chapitre 14 : Accessibilité en HTML</h2>"+
             "<br><p><b> Sous titres du chapitre 1</b></p>"
         },
         { numero: 2, title: "Les HTML avancés", content: "Contenu des HTML avancés" },
