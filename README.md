@@ -31,7 +31,7 @@ L’objectif de DEV TIPS est de rendre accessible l’apprentissage du développ
 </p>
 
 <h3 align="left">Contact :</h3>
-<p>Pour toute question ou suggestion, n'hésitez pas à nous contacter via <a href="mailto:devtips@example.com">devtips@example.com</a>.</p>
+<p>Pour toute question ou suggestion, n'hésitez pas à nous contacter via <a href="#">bientot...</a>.</p>
 
 
 <p align="left">
