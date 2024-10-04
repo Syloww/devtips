@@ -20,6 +20,9 @@ export const dataCategorie = {
 
 
             "<br><p><b><span>Structure d'une page HTML<span></b></p>"+
+            "<br><p>Une page HTML est organisée en une structure hiérarchique avec des <b>balises qui sont ouvertes et fermées</b>. Voici un exemple de structure minimale d’une page HTML :</p>"+
+            '<br><img src="images/cours/html/structure.png" alt="">'+
+
             "<br><p><b><span>Les balises et leurs rôles<span></b></p>"+
             "<br><p><b><span>Le rôle des navigateurs web<span></b></p>"+
 
