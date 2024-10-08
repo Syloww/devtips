@@ -2,8 +2,7 @@
 export const dataCategorie = {
     html: [
         {
-            numero: 1, title: "<h1>Les bases du HTML</h1><hr>", content: "HTML est le langage de balisage standard pour les pages Web. Avec HTML, vous pouvez créer votre propre site Web. Le HTML est facile à apprendre - Vous l'apprécierez !" +
-                "<br><h2>Chapitre 1 :  Introduction à HTML</h2>" +
+            numero: 1, title: "<h1>Chapitre 1 :  Introduction à HTML</h1><hr>", content: "HTML est le langage de balisage standard pour les pages Web. Amusez vous !" +
                 "<br><p><b><span>Qu'est-ce que HTML ?</span></b></p>" +
 
                 "<br><div>HTML (HyperText Markup Language) est un langage de balisage utilisé pour structurer et présenter le contenu sur le web. Il permet de définir l'agencement et l'apparence des éléments sur une page, comme des titres, des paragraphes, des images, des liens, des formulaires, etc. HTML est à la base de toute page web et travaille en tandem avec d'autres langages comme CSS (pour la mise en forme) et JavaScript (pour l'interactivité).</div>" +
