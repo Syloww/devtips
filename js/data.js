@@ -49,16 +49,14 @@ export const dataCategorie = {
         },
         {
             numero: 4,
-            title: "Les Listes",
+            title: "<h1>Chapitre 4 : Listes</h1><hr>",
             content: 
-                "<br><h2>Chapitre 4 : Listes</h2>" +
                 "<br><p><b>Structure d'une page HTML</b></p>"
         },
         {
             numero: 5,
-            title: "Les Liens hypertextes",
+            title: "<h1>Chapitre 5 : Liens hypertextes</h2></h1><hr>",
             content: 
-                "<br><h2>Chapitre 5 : Liens hypertextes</h2>" +
                 "<br><p><b>Structure d'une page HTML</b></p>"
         },
         {
