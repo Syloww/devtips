@@ -75,7 +75,9 @@ h3 {
     color: #fb4c28;
     transform: scale(1.1, 1.1);
 }
-
+#menu{
+    display: none;
+}
 .barrelateral {
     align-items: center;
     background-color: #0f0f0f;
@@ -83,6 +85,7 @@ h3 {
     justify-content: space-between;
     flex-direction: column;
     color: #BEBEBE;
+    position: static;
     left: 0px;
     top: 0px;
     bottom: 0px;

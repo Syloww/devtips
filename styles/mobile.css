@@ -4,8 +4,9 @@ body {
     color: #ffffff;
     width: 100%;
     height: 100%;
+
   
-    background: #1E1E1E;
+    background: #161616;
     --gap: 5em;
     --line: 1px;
     --color: rgba(255, 255, 255, 0.2);
@@ -66,7 +67,7 @@ h3 {
 }
 
 .lienicon svg {
-    transition: color 0.3s;
+    transition: color 0.2s;
 }
 
 .lienicon:hover,
@@ -75,7 +76,9 @@ h3 {
     color: #fb4c28;
     transform: scale(1.1, 1.1);
 }
-
+.cacher{
+    transform: translateX(-100%) !important;
+}
 .barrelateral {
     align-items: center;
     background-color: #171717;
@@ -87,6 +90,8 @@ h3 {
     top: 0px;
     bottom: 0px;
     padding: 60px 20px 20px 20px;
+    position: fixed;
+    z-index: 400;
 }
 
 .barrelateral>section>.barrelaterallien {
