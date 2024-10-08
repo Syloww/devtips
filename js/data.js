@@ -86,30 +86,26 @@ export const dataCategorie = {
         },
         {
             numero: 10,
-            title: "Le Multimédia",
+            title: "<h1>Chapitre 10 : Multimédia</h1><hr>",
             content: 
-                "<br><h2>Chapitre 10 : Multimédia</h2>" +
                 "<br><p><b>Structure d'une page HTML</b></p>"
         },
         {
             numero: 11,
-            title: "Les Iframes",
+            title: "<h1>Chapitre 11 : Iframes</h1><hr>",
             content: 
-                "<br><h2>Chapitre 11 : Iframes</h2>" +
                 "<br><p><b>Structure d'une page HTML</b></p>"
         },
         {
             numero: 12,
-            title: "Les Attributs globaux",
+            title: "<h1>Chapitre 12 : Attributs globaux</h1><hr>",
             content: 
-                "<br><h2>Chapitre 12 : Attributs globaux</h2>" +
                 "<br><p><b>Structure d'une page HTML</b></p>"
         },
         {
             numero: 13,
-            title: "Les métadonnées et SEO",
+            title: "<h1>Chapitre 13 : Les métadonnées et SEO</h1><hr>",
             content: 
-                "<br><h2>Chapitre 13 : Les métadonnées et SEO</h2>" +
                 "<br><p><b>Structure d'une page HTML</b></p>"
         },
         {
