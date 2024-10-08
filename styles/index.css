@@ -4,24 +4,20 @@ body {
     color: #ffffff;
     width: 100%;
     height: 100%;
-  
+
     background: #161616;
     --gap: 5em;
     --line: 1px;
     --color: rgba(255, 255, 255, 0.2);
-  
-    background-image: linear-gradient(
-        -90deg,
-        transparent calc(var(--gap) - var(--line)),
-        var(--color) calc(var(--gap) - var(--line) + 1px),
-        var(--color) var(--gap)
-      ),
-      linear-gradient(
-        0deg,
-        transparent calc(var(--gap) - var(--line)),
-        var(--color) calc(var(--gap) - var(--line) + 1px),
-        var(--color) var(--gap)
-      );
+
+    background-image: linear-gradient(-90deg,
+            transparent calc(var(--gap) - var(--line)),
+            var(--color) calc(var(--gap) - var(--line) + 1px),
+            var(--color) var(--gap)),
+        linear-gradient(0deg,
+            transparent calc(var(--gap) - var(--line)),
+            var(--color) calc(var(--gap) - var(--line) + 1px),
+            var(--color) var(--gap));
     background-size: var(--gap) var(--gap);
 }
 
@@ -37,9 +33,11 @@ span {
 hr {
     margin: 20px 0px 20px 0px;
 }
-h1{
+
+h1 {
     font-size: 40px;
 }
+
 h2 {
     font-size: 35px;
 }
@@ -169,7 +167,7 @@ h3 {
     color: #ffffff;
     font-weight: bold;
     padding: 20px;
-    background: linear-gradient(180deg, rgba(251,76,40,1) 8%, rgba(1,0,14,1) 99%);
+    background: linear-gradient(180deg, rgba(251, 76, 40, 1) 8%, rgba(1, 0, 14, 1) 99%);
     border-radius: 30px;
     background-size: cover;
     width: 100%;
@@ -199,43 +197,63 @@ h3 {
 }
 
 /* CREDITS */
-.creditpersonne{
+.creditpersonne {
     text-align: center;
 }
-.creditcontainer{
+
+.creditcontainer {
     display: flex;
     justify-content: space-evenly;
 }
-.ppcontainer{
+
+.ppcontainer {
     width: 350px;
 }
-.pp{
+
+.pp {
     width: 100%;
     height: auto;
     border-radius: 10%;
 }
+
 /* bouttoncours */
-.boutoncours{
+#courses-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+.boutoncours {
     padding: 20px;
     transition: 0.4s;
-    display: inline-block;
     border-style: solid;
     border-width: 2px;
     border-color: #ffffff;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-.boutoncours:hover{
+
+.boutoncours:hover {
     color: #fb4c28;
     border-radius: 20px;
     transform: scale(1.02, 1.02);
 }
+
 /* iframe */
-iframe{
+iframe {
     border-radius: 30px;
     border-style: solid;
     border-color: #fb4c28;
     margin: 30px;
     border-width: 3px;
 }
+
 /* ANIMATIONS */
 .slide-in-left {
     -webkit-animation: slide-in-left 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
