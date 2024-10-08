@@ -131,6 +131,9 @@ export const dataCategorie = {
         { numero: 3, title: "JS ES6+", content: "Contenu JS ES6+" }
     ],
     php: [
-        { numero: 1, title: "<h1>Les bases du PHP</h1><hr>", content: "PHP est un langage de script côté serveur utilisé principalement pour le développement web, permettant de créer des pages web dynamiques et interactives. Malgré ses apparences, il n'est pas vilain... Promis !" }
+        { numero: 1, title: "<h1>Chapitre 1 :  Les bases du PHP</h1><hr>", content: "PHP est un langage de script côté serveur utilisé principalement pour le développement web, permettant de créer des pages web dynamiques et interactives. Malgré ses apparences, il n'est pas vilain... Promis !" }
+    ],
+    sql: [
+        { numero: 1, title: "<h1>Chapitre 1 :  Les bases du SQL</h1><hr>", content: "PHP est un langage de script côté serveur utilisé principalement pour le développement web, permettant de créer des pages web dynamiques et interactives. Malgré ses apparences, il n'est pas vilain... Promis !" }
     ]
 };
