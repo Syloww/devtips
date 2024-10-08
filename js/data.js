@@ -34,15 +34,6 @@ export const dataCategorie = {
                 "<br><p><b><span>Le rôle des navigateurs web<span></b></p>" +
 
 
-                "<br><h2>Chapitre 2 : Structure de base d'une page HTML</h2>" +
-                "<br><p><b>La balise <span>!DOCTYPE html<span></b></p>" +
-                "<br> <iframe width='90%' height='720' src='https://www.youtube.com/embed/hIEZ8xpdBts' title='Comprendre TOUTES les balises HTML en 13 minutes' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>" +
-                "<br><b>Resumé :</b>" +
-
-                "<br><h2>Chapitre 3 : Textes et Titres</h2>" +
-                "<br><p><b> Sous titres du chapitre 1</b></p>" +
-
-
                 "<br><h2>Chapitre 4 : Listes</h2>" +
                 "<br><p><b><span>Structure d'une page HTML<span></b></p>" +
 
@@ -85,8 +76,14 @@ export const dataCategorie = {
                 "<br><h2>Chapitre 14 : Accessibilité en HTML</h2>" +
                 "<br><p><b><span>Structure d'une page HTML<span></b></p>"
         },
-        { numero: 2, title: "Les HTML avancés", content: "Contenu des HTML avancés" },
-        { numero: 3, title: "<h1>[HTML] Aller plus loin</h1>", content: "<h2>test</h2>" }
+        {
+            numero: 2, title: "Les bases du HTML", content: "<br><h2>Chapitre 2 : Structure de base d'une page HTML</h2>" +
+                "<br><p><b>La balise <span>!DOCTYPE html<span></b></p>" +
+                "<br> <iframe width='90%' height='720' src='https://www.youtube.com/embed/hIEZ8xpdBts' title='Comprendre TOUTES les balises HTML en 13 minutes' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>" +
+                "<br><b>Resumé :</b>"
+        },
+        { numero: 3, title: "<h1>Les balises <h> et <p></h1>", content: "<br><h2>Chapitre 3 : Textes et Titres</h2>" +
+                "<br><p><b> Sous titres du chapitre 1</b></p>" }
     ],
     css: [
         {
