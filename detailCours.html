@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cours - DEVTIPS</title>
-    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" media="screen and (max-width: 680px)" href="styles/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 680px)" href="styles/index.css">
 </head>
 
 <body>
     <section class="container">
-        <section class="barrelateral">
+        <section class="barrelateral cacher">
             <section>
                 <div class="barrelaterallien">
                     <div class="lienicon">
@@ -76,13 +77,29 @@
             </section>
         </section>
         <section class="container2">
-
+            <div class="header">
+                <div>
+                    <div class="titre">
+                        <h2>DEV<span>TIPS</span> ! </h2>
+                    </div>
+                </div>
+                <div class="headerdroit">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" id="menu"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
             <h1 id="courseTitle"></h1>
             <div id="courseContent"></div>
         </section>
     </section>
 
 
+    <script src="js/menu.js"></script>
     <script type="module" src="js/data.js"></script>
     <script type="module" src="js/detailCours.js"></script>
 </body>
