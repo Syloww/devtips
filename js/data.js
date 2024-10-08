@@ -27,54 +27,7 @@ export const dataCategorie = {
                 "<li><span><b>head</b></span> : Contient des métadonnées (comme le titre de la page, les encodages de caractères, les liens vers les styles, etc.).</li>" +
                 `<li><span><b>meta charset="UTF-8"</b></span> : Définit l'encodage des caractères (UTF-8 est recommandé).</li>` +
                 "<li><span><b>title</b></span> : Le titre affiché dans l'onglet du navigateur.</li>" +
-                "<li><span><b>body</b></span> : Contient le contenu visible par l'utilisateur (textes, images, vidéos, etc.).</li></ul>" +
-
-
-                "<br><p><b><span>Les balises et leurs rôles<span></b></p>" +
-                "<br><p><b><span>Le rôle des navigateurs web<span></b></p>" +
-
-
-                "<br><h2>Chapitre 4 : Listes</h2>" +
-                "<br><p><b><span>Structure d'une page HTML<span></b></p>" +
-
-                "<br><h2>Chapitre 5 : Liens hypertextes</h2>" +
-                "<br><p><b><span>Structure d'une page HTML<span></b></p>" +
-
-
-                "<br><h2>Chapitre 6 : Images</h2>" +
-                "<br><p><b><span>Structure d'une page HTML<span></b></p>" +
-
-
-                "<br><h2>Chapitre 7 : Tableaux</h2>" +
-                "<br><p><b><span>Structure d'une page HTML<span></b></p>" +
-
-
-                "<br><h2>Chapitre 8 : Formulaires</h2>" +
-                "<br><p><b><span>Structure d'une page HTML<span></b></p>" +
-
-
-                "<br><h2>Chapitre 9 : Conteneurs et Sections</h2>" +
-                "<br><p><b><span>Structure d'une page HTML<span></b></p>" +
-
-
-                "<br><h2>Chapitre 10 : Multimédia</h2>" +
-                "<br><p><b><span>Structure d'une page HTML<span></b></p>" +
-
-
-                "<br><h2>Chapitre 11 : Iframes</h2>" +
-                "<br><p><b><span>Structure d'une page HTML<span></b></p>" +
-
-
-                "<br><h2>Chapitre 12 : Attributs globaux</h2>" +
-                "<br><p><b><span>Structure d'une page HTML<span></b></p>" +
-
-
-                "<br><h2>Chapitre 13 : Les métadonnées et SEO</h2>" +
-                "<br><p><b><span>Structure d'une page HTML<span></b></p>" +
-
-
-                "<br><h2>Chapitre 14 : Accessibilité en HTML</h2>" +
-                "<br><p><b><span>Structure d'une page HTML<span></b></p>"
+                "<li><span><b>body</b></span> : Contient le contenu visible par l'utilisateur (textes, images, vidéos, etc.).</li></ul>"
         },
         {
             numero: 2,
