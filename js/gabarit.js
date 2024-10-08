@@ -19,7 +19,14 @@ function displayCategoryCourses(category) {
         // Afficher le titre de la catégorie
         const titleElement = document.createElement('h1');
         titleElement.innerText = categoryData.title;
-        coursesContainer.appendChild(titleElement);
+
+        // Remplacement du <h2><span> dans la div avec la classe "titre"
+        const titleContainer = document.querySelector('.titre h2 span');
+        if (titleContainer) {
+            titleContainer.innerText = categoryData.title;
+        } else {
+            console.error("L'élément de titre n'a pas été trouvé");
+        }
 
         // Parcours et affiche les contenus de la catégorie
         Object.keys(categoryData).forEach(key => {
