@@ -35,18 +35,16 @@ export const dataCategorie = {
         },
         {
             numero: 2,
-            title: "Les bases du HTML",
+            title: "<h1>Chapitre 2 : Structure de base d'une page HTML</h1><hr>",
             content: 
-                "<br><h2>Chapitre 2 : Structure de base d'une page HTML</h2>" +
                 "<br><p><b>La balise <span>!DOCTYPE html<span></b></p>" +
                 "<br> <iframe width='90%' height='720' src='https://www.youtube.com/embed/hIEZ8xpdBts' title='Comprendre TOUTES les balises HTML en 13 minutes' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>" +
                 "<br><b>Resumé :</b>"
         },
         {
             numero: 3,
-            title: "<h1>Les balises <h> et <p></h1>",
+            title: "<h1>Chapitre 3 : Textes et Titres</h1><hr>",
             content: 
-                "<br><h2>Chapitre 3 : Textes et Titres</h2>" +
                 "<br><p><b> Sous titres du chapitre 1</b></p>"
         },
         {
