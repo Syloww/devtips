@@ -73,16 +73,15 @@ export const dataCategorie = {
         },
         {
             numero: 8,
-            title: "Les Formulaires",
+            title: "<h1>Chapitre 8 : Formulaires</h1><hr>",
             content: 
                 "<br><h2>Chapitre 8 : Formulaires</h2>" +
                 "<br><p><b>Structure d'une page HTML</b></p>"
         },
         {
             numero: 9,
-            title: "Conteneurs et Sections",
+            title: "<h1>Chapitre 9 : Conteneurs et Sections</h1><hr>",
             content: 
-                "<br><h2>Chapitre 9 : Conteneurs et Sections</h2>" +
                 "<br><p><b>Structure d'une page HTML</b></p>"
         },
         {
