@@ -254,7 +254,7 @@ h3 {
 }
 .barrederecherche{
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 .barrederecherche > input{
     border-width: 1px;
