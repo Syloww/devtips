@@ -1,0 +1,17 @@
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 500;
+    background-color: #fb4c28;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer; /* Changer le curseur pour indiquer que c'est cliquable */
+    opacity: 1;
+    transition: opacity 0.5s ease !important;
+}
+.show {
+    opacity: 0;
+}
