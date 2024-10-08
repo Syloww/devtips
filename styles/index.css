@@ -256,6 +256,15 @@ h3 {
     display: flex;
     justify-content: center;
 }
+.barrederecherche > input{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFF;
+    padding: 10px 20px 10px 20px;
+    background-color: transparent; /* Retire la couleur de fond */
+    outline: none; /* Désactive l'outline au focus */
+    color: #FFF; 
+}
 /* iframe */
 iframe {
     border-radius: 30px;
