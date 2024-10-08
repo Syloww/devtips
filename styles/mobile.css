@@ -223,6 +223,19 @@ h3 {
     height: auto;
     border-radius: 10%;
 }
+.barrederecherche{
+    display: flex;
+    justify-content: center;
+}
+.barrederecherche > input{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFF;
+    padding: 10px 20px 10px 20px;
+    background-color: transparent; /* Retire la couleur de fond */
+    outline: none; /* Désactive l'outline au focus */
+    color: #FFF; 
+}
 /* bouttoncours */
 .boutoncours{
     padding: 20px;

@@ -252,7 +252,10 @@ h3 {
     display: flex;
     flex-wrap: wrap;
 }
-
+.barrederecherche{
+    display: flex;
+    justify-content: center;
+}
 /* iframe */
 iframe {
     border-radius: 30px;
