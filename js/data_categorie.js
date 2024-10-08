@@ -3,9 +3,9 @@ const dataCategorie = [
     {
         id: "1",
         title: "Les cours HTML",
-        content0: "<h3><a href='detailCours.html?langage=html&numero=1' class='boutoncours'>Les bases HTML</a></h3>",
-        content1: "<h3><a href='detailCours.html?langage=html&numero=2' class='boutoncours'>Les HTML</a></h3>",
-        content2: "<h3><a href='detailCours.html?langage=html&numero=3' class='boutoncours'>Allez plus loins</a></h3>"
+        content0: "<h3><a href='detailCours.html?langage=html&numero=1' class='boutoncours'>Chapitre 1 : Introduction à HTML</a></h3>",
+        content1: "<h3><a href='detailCours.html?langage=html&numero=2' class='boutoncours'>Chapitre 2 : Structure de base d'une page HTML</a></h3>",
+        content2: "<h3><a href='detailCours.html?langage=html&numero=3' class='boutoncours'>Chapitre 3 : Textes et Titres</a></h3>"
     },
     {
         id: "2",
