@@ -238,8 +238,8 @@ iframe{
 }
 /* ANIMATIONS */
 .slide-in-left {
-    -webkit-animation: slide-in-left 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-in-left 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    -webkit-animation: slide-in-left 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /* ----------------------------------------------
@@ -283,8 +283,8 @@ iframe{
 }
 
 .slide-in-bottom {
-    -webkit-animation: slide-in-bottom 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
-    animation: slide-in-bottom 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+    -webkit-animation: slide-in-bottom 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+    animation: slide-in-bottom 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
 }
 
 /* ----------------------------------------------
