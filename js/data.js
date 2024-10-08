@@ -61,16 +61,14 @@ export const dataCategorie = {
         },
         {
             numero: 6,
-            title: "Les Images",
+            title: "<h1>Chapitre 6 : Images</h2></h1><hr>",
             content: 
-                "<br><h2>Chapitre 6 : Images</h2>" +
                 "<br><p><b>Structure d'une page HTML</b></p>"
         },
         {
             numero: 7,
-            title: "Les Tableaux",
+            title: "<h1>Chapitre 7 : Tableaux</h1><hr>",
             content: 
-                "<br><h2>Chapitre 7 : Tableaux</h2>" +
                 "<br><p><b>Structure d'une page HTML</b></p>"
         },
         {
