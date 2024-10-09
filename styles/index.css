@@ -365,3 +365,15 @@ iframe {
         opacity: 1;
     }
 }
+
+.breadcrumb {
+    padding: 10px;
+    background-color: #f8f8f800;
+}
+.breadcrumb a {
+    text-decoration: none;
+    color: #fb4c28;
+}
+.breadcrumb span {
+    margin: 0 5px;
+}
