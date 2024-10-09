@@ -21,3 +21,4 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('courseContent').innerText = '';
     }
 });
+''
