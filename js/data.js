@@ -220,17 +220,17 @@ export const dataCategorie = {
     ],
     css: [
         {
-            numero: 1, 
-            title: "<h1>Chapitre 1 : Les bases du CSS</h1><hr>", 
+            numero: 1,
+            title: "<h1>Chapitre 1 : Les bases du CSS</h1><hr>",
             content: "CSS est le langage que nous utilisons pour styliser un document HTML. Le CSS décrit comment les éléments HTML doivent être affichés. Ce tutoriel vous apprendra le CSS du basique au avancé." +
-                "<br><h2>Chapitre 1 : Introduction à CSS</h2>" + 
+                "<br><h2>Chapitre 1 : Introduction à CSS</h2>" +
                 "<br><p><b>Sous-titres du chapitre 1 :</b></p>" +
                 "<ul>" +
-                    "<li>Qu'est-ce que le CSS ?</li>" +
-                    "<li>Liens entre HTML et CSS : styles en ligne, internes et externes</li>" +
-                    "<li>La syntaxe CSS : sélecteurs, propriétés et valeurs</li>" +
-                    "<li>Comment inclure du CSS dans une page web ?</li>" +
-                    "<li>Démo simple : styliser du texte, des couleurs et des fonds</li>" +
+                "<li>Qu'est-ce que le CSS ?</li>" +
+                "<li>Liens entre HTML et CSS : styles en ligne, internes et externes</li>" +
+                "<li>La syntaxe CSS : sélecteurs, propriétés et valeurs</li>" +
+                "<li>Comment inclure du CSS dans une page web ?</li>" +
+                "<li>Démo simple : styliser du texte, des couleurs et des fonds</li>" +
                 "</ul>" +
                 "<br><p><span style='font-weight:bold;'>Important :</span> CSS permet de séparer la structure HTML de la présentation visuelle, facilitant ainsi la maintenance du code.</p>" +
                 "<br><p><b>Exemple :</b></p>" +
@@ -242,40 +242,98 @@ export const dataCategorie = {
                 "<br><p><b>Résultat :</b> Le texte dans les balises &lt;p&gt; sera en bleu avec une taille de 18px, et l'arrière-plan de la page sera gris clair.</p>"
         },
         {
-            numero: 2, 
-            title: "<h2>Chapitre 2 : Sélecteurs et spécificité</h2>", 
-            content: "<p><b>Sous-titres du chapitre 2 :</b></p>" +
+            "numero": 2,
+            "title": "<h2>Chapitre 2 : Sélecteurs CSS et Spécificité</h2><hr>",
+            "content":
+                "<p><b>Introduction :</b> Les sélecteurs CSS sont la base du ciblage des éléments HTML pour appliquer des styles. Comprendre comment les utiliser et maîtriser la spécificité vous permet de mieux contrôler l'apparence de vos pages web. Dans ce chapitre, nous explorerons les différents types de sélecteurs et leur spécificité.</p>" +
+
+                "<br><h3>1. Types de Sélecteurs CSS</h3>" +
+                "<p><b>Sélecteurs élémentaires :</b></p>" +
                 "<ul>" +
-                    "<li>Types de sélecteurs CSS : sélecteurs de base (éléments, classes, identifiants)</li>" +
-                    "<li>Sélecteurs avancés : attributs, pseudo-classes et pseudo-éléments</li>" +
-                    "<li>Spécificité CSS : comment fonctionnent les priorités ?</li>" +
-                    "<li>Importance des combinaisons de sélecteurs</li>" +
-                    "<li>Exemples pratiques : styliser des boutons avec :hover et des liens avec :active</li>" +
+                "<li><span>Sélecteur de type :</span> cible tous les éléments d'un type donné. Exemple : <code>p { color: blue; }</code> stylise tous les paragraphes en bleu.</li>" +
+                "<li><span>Sélecteur de classe :</span> cible les éléments ayant une classe spécifique. Exemple : <code>.highlight { background-color: yellow; }</code> applique un fond jaune aux éléments ayant la classe 'highlight'.</li>" +
+                "<li><span>Sélecteur d'identifiant :</span> cible un élément unique avec un identifiant. Exemple : <code>#header { font-size: 2em; }</code> modifie la taille du texte de l'élément avec l'ID 'header'.</li>" +
                 "</ul>" +
-                "<br><p><span style='font-weight:bold;'>Important :</span> Les sélecteurs CSS permettent de cibler des éléments spécifiques dans le document HTML pour leur appliquer un style. La spécificité définit quelle règle CSS a priorité sur une autre.</p>" +
-                "<br><p><b>Exemple :</b></p>" +
+                "<p><b>Exemple combiné :</b></p>" +
                 "<pre><code>" +
-                "/* Sélecteurs CSS */\n" +
-                "h1 { color: red; }\n" +
-                ".class-name { font-weight: bold; }\n" +
-                "#id-name { background-color: yellow; }\n" +
-                "a:hover { text-decoration: underline; }" +
+                "h1 { color: green; }\n" +
+                ".menu-item { font-weight: bold; }\n" +
+                "#main-content { padding: 20px; }\n" +
                 "</code></pre>" +
-                "<br><p><b>Résultat :</b> Les titres &lt;h1&gt; seront rouges, les éléments avec la classe '.class-name' seront en gras, et les éléments avec l'identifiant '#id-name' auront un fond jaune. Les liens seront soulignés au survol.</p>"
+                "<p>Ce code stylise les titres <code>&lt;h1&gt;</code> en vert, les éléments avec la classe 'menu-item' en gras, et ajoute du padding à l'élément avec l'ID 'main-content'.</p>" +
+
+                "<br><p><b>Sélecteurs avancés :</b></p>" +
+                "<ul>" +
+                "<li><span>Sélecteur d'attribut :</span> cible les éléments avec un attribut spécifique. Exemple : <code>input[type='text'] { border: 1px solid #333; }</code> ajoute une bordure aux champs de texte.</li>" +
+                "<li><span>Pseudo-classes :</span> définissent des états spéciaux. Exemple : <code>a:hover { color: red; }</code> change la couleur d'un lien au survol en rouge.</li>" +
+                "<li><span>Pseudo-éléments :</span> ciblent des parties spécifiques d'un élément. Exemple : <code>p::first-letter { font-size: 2em; }</code> agrandit la première lettre d'un paragraphe.</li>" +
+                "</ul>" +
+                "<p><b>Exemple avancé :</b></p>" +
+                "<pre><code>" +
+                "input[placeholder] { font-style: italic; }\n" +
+                "a:hover { text-decoration: underline; }\n" +
+                "p::first-letter { color: red; }\n" +
+                "</code></pre>" +
+                "<p>Ce code cible les champs ayant un attribut 'placeholder', stylise les liens au survol, et modifie la première lettre des paragraphes.</p>" +
+
+                "<br><h3>2. Spécificité CSS</h3>" +
+                "<p>La spécificité détermine quelle règle CSS s'applique lorsqu'un élément est ciblé par plusieurs sélecteurs. Voici la hiérarchie :</p>" +
+                "<ul>" +
+                "<li><span>Identifiants (ID) :</span> ont la spécificité la plus élevée.</li>" +
+                "<li><span>Classes, pseudo-classes, et attributs :</span> sont moins spécifiques que les ID, mais plus que les sélecteurs de type.</li>" +
+                "<li><span>Sélecteurs de type :</span> sont les moins spécifiques.</li>" +
+                "</ul>" +
+                "<p><b>Exemple :</b></p>" +
+                "<pre><code>" +
+                "#main { color: blue; }\n" +
+                ".highlight { color: green; }\n" +
+                "p { color: red; }\n" +
+                "</code></pre>" +
+                "<p>Dans cet exemple, un élément ayant l'ID 'main' sera bleu, même s'il a aussi la classe 'highlight' ou s'il est un paragraphe, car <span style='font-weight:bold; color:red;'>l'ID a une spécificité plus élevée</span>.</p>" +
+
+                "<br><h3>3. Combinaisons de Sélecteurs</h3>" +
+                "<p>Les combinaisons de sélecteurs permettent de cibler des éléments dans des contextes spécifiques :</p>" +
+                "<ul>" +
+                "<li><span>Sélecteurs descendants :</span> Ciblent les éléments à l'intérieur d'un autre élément. Exemple : <code>nav a { color: white; }</code> stylise les liens à l'intérieur de <code>&lt;nav&gt;</code> en blanc.</li>" +
+                "<li><span>Sélecteurs enfants directs :</span> Ciblent uniquement les enfants directs. Exemple : <code>ul > li { margin: 10px; }</code> ajoute une marge aux <code>&lt;li&gt;</code> directement sous un <code>&lt;ul&gt;</code>.</li>" +
+                "<li><span>Sélecteurs adjacents :</span> Ciblent les éléments immédiatement après un autre. Exemple : <code>h1 + p { font-size: 1.2em; }</code> stylise le paragraphe immédiatement après un <code>&lt;h1&gt;</code>.</li>" +
+                "</ul>" +
+                "<p><b>Exemple combiné :</b></p>" +
+                "<pre><code>" +
+                "div > p { color: blue; }\n" +
+                "ul li a:hover { background-color: yellow; }\n" +
+                "h1 + p { font-style: italic; }\n" +
+                "</code></pre>" +
+                "<p>Ce code stylise les paragraphes directement sous un <code>&lt;div&gt;</code>, les liens à l'intérieur de <code>&lt;ul&gt;</code> au survol, et met en italique les paragraphes suivant immédiatement un <code>&lt;h1&gt;</code>.</p>" +
+
+                "<br><h3>4. Exemples pratiques</h3>" +
+                "<ul>" +
+                "<li><b>Styliser un bouton avec <span>:hover</span> :</b></li>" +
+                "<pre><code>" +
+                "button:hover { background-color: lightblue; }\n" +
+                "</code></pre>" +
+                "<li><b>Styliser des liens avec <span>:active</span> :</b></li>" +
+                "<pre><code>" +
+                "a:active { color: red; }\n" +
+                "</code></pre>" +
+                "</ul>"
         },
         {
-            numero: 3, 
-            title: "<h2>Chapitre 3 : Mise en page avec CSS</h2>", 
-            content: "<p><b>Sous-titres du chapitre 3 :</b></p>" +
+            "numero": 3,
+            "title": "<h2>Chapitre 3 : Mise en page avec CSS</h2><hr>",
+            "content":
+                "<p><b>Introduction :</b> Dans ce chapitre, nous allons explorer les différentes techniques de mise en page en CSS. Comprendre ces concepts est fondamental pour créer des designs web efficaces et adaptifs.</p>" +
+
+                "<br><h3>1. Le Modèle de Boîte</h3>" +
+                "<p>Le modèle de boîte est la façon dont les éléments HTML sont organisés et stylisés. Chaque élément est considéré comme une boîte avec quatre propriétés principales :</p>" +
                 "<ul>" +
-                    "<li>Le modèle de boîte : marges, bordures, padding, et contenu</li>" +
-                    "<li>Utilisation des unités de mesure : pixels, pourcentages, em, rem, etc.</li>" +
-                    "<li>Positionnement : statique, relatif, absolu, fixe et sticky</li>" +
-                    "<li>Flexbox : introduction à la mise en page flexible</li>" +
-                    "<li>Grille CSS (Grid) : créer des mises en page complexes</li>" +
+                "<li><span>Marge :</span> Espace à l'extérieur de l'élément, séparant ce dernier des autres éléments.</li>" +
+                "<li><span>Bordure :</span> Ligne entourant l'élément, définie par sa largeur, style et couleur.</li>" +
+                "<li><span>Rembourrage (Padding) :</span> Espace à l'intérieur de l'élément, entre le contenu et la bordure.</li>" +
+                "<li><span>Contenu :</span> Ce que contient l'élément (texte, images, etc.).</li>" +
                 "</ul>" +
-                "<br><p><span style='font-weight:bold;'>Important :</span> Comprendre le modèle de boîte est essentiel pour contrôler l'espacement et la mise en page des éléments HTML.</p>" +
-                "<br><p><b>Exemple :</b></p>" +
+
+                "<p><b>Exemple du modèle de boîte :</b></p>" +
                 "<pre><code>" +
                 "/* Exemple du modèle de boîte */\n" +
                 "div { \n" +
@@ -284,18 +342,96 @@ export const dataCategorie = {
                 "  border: 2px solid black; \n" +
                 "}" +
                 "</code></pre>" +
-                "<br><p><b>Résultat :</b> Un espace de 10px sera laissé autour du div (marge), un espace de 20px sera à l'intérieur du div (rembourrage), et une bordure de 2px sera dessinée autour de celui-ci.</p>"
+                "<p>Dans cet exemple, un espace de <span>10px</span> sera laissé autour du div (marge), un espace de <span>20px</span> sera à l'intérieur du div (rembourrage), et une bordure de <span>2px</span> sera dessinée autour de celui-ci.</p>" +
+
+                "<br><h3>2. Unités de Mesure</h3>" +
+                "<p>Il existe plusieurs unités de mesure en CSS, chacune ayant son utilité :</p>" +
+                "<ul>" +
+                "<li><span>Pixels (px) :</span> Une unité fixe, généralement utilisée pour des tailles précises.</li>" +
+                "<li><span>Pourcentages (%) :</span> Utilisé pour des dimensions relatives, souvent par rapport à l'élément parent.</li>" +
+                "<li><span>em :</span> Relative à la taille de la police de l'élément parent.</li>" +
+                "<li><span>rem :</span> Relative à la taille de la police de l'élément racine (généralement <code>&lt;html&gt;</code>).</li>" +
+                "<li><span>vh/vw :</span> Unités basées sur la taille de la fenêtre de visualisation (1vh = 1% de la hauteur, 1vw = 1% de la largeur).</li>" +
+                "</ul>" +
+
+                "<br><h3>3. Positionnement</h3>" +
+                "<p>CSS offre plusieurs méthodes de positionnement des éléments :</p>" +
+                "<ul>" +
+                "<li><span>Statique :</span> La position par défaut, les éléments sont empilés les uns sur les autres.</li>" +
+                "<li><span>Relatif :</span> Positionne un élément par rapport à sa position d'origine. Exemple : <code>top: 10px;</code> déplace l'élément de 10 pixels vers le bas.</li>" +
+                "<li><span>Absolu :</span> Positionne un élément par rapport à son ancêtre le plus proche ayant une position relative.</li>" +
+                "<li><span>Fixe :</span> L'élément reste à la même position même lors du défilement de la page.</li>" +
+                "<li><span>Sticky :</span> Un mélange de positionnement relatif et fixe, où l'élément reste collé en haut lors du défilement.</li>" +
+                "</ul>" +
+
+                "<p><b>Exemple de positionnement :</b></p>" +
+                "<pre><code>" +
+                ".fixed-header {\n" +
+                "  position: fixed;\n" +
+                "  top: 0;\n" +
+                "  width: 100%;\n" +
+                "}" +
+                "</code></pre>" +
+                "<p>Dans cet exemple, l'élément avec la classe <code>fixed-header</code> reste fixé en haut de la page, même lors du défilement.</p>" +
+
+                "<br><h3>4. Flexbox</h3>" +
+                "<p>Flexbox est un modèle de mise en page qui permet de créer des mises en page flexibles et adaptées. Il facilite la distribution d'espace et l'alignement des éléments :</p>" +
+                "<ul>" +
+                "<li><span>Conteneur Flex :</span> Utilisez <code>display: flex;</code> pour activer le mode Flexbox.</li>" +
+                "<li><span>Alignement :</span> Alignez les éléments avec <code>justify-content</code> (horizontal) et <code>align-items</code> (vertical).</li>" +
+                "</ul>" +
+                "<pre><code>" +
+                ".flex-container {\n" +
+                "  display: flex;\n" +
+                "  justify-content: space-around;\n" +
+                "  align-items: center;\n" +
+                "  height: 100px;\n" +
+                "  background-color: #f0f0f0;\n" +
+                "}\n\n" +
+                ".flex-item {\n" +
+                "  background-color: #4CAF50;\n" +
+                "  color: white;\n" +
+                "  padding: 20px;\n" +
+                "  margin: 5px;\n" +
+                "  border-radius: 5px;\n" +
+                "}" +
+                "</code></pre>" +
+                "<p>Ce code crée un conteneur flex avec trois éléments alignés horizontalement, répartis de manière égale avec un espace autour.</p>" +
+
+                "<br><h3>5. Grille CSS (Grid)</h3>" +
+                "<p>La Grille CSS permet de créer des mises en page plus complexes en définissant des lignes et des colonnes :</p>" +
+                "<ul>" +
+                "<li><span>Définir une grille :</span> Utilisez <code>display: grid;</code> pour activer le modèle de grille.</li>" +
+                "<li><span>Lignes et colonnes :</span> Utilisez <code>grid-template-rows</code> et <code>grid-template-columns</code> pour définir la structure de la grille.</li>" +
+                "</ul>" +
+
+                "<p><b>Exemple de Grille CSS :</b></p>" +
+                "<pre><code>" +
+                ".grid-container {\n" +
+                "  display: grid;\n" +
+                "  grid-template-columns: repeat(3, 1fr);\n" +
+                "  grid-gap: 10px;\n" +
+                "}\n\n" +
+                ".grid-item {\n" +
+                "  background-color: #2196F3;\n" +
+                "  color: white;\n" +
+                "  padding: 20px;\n" +
+                "  text-align: center;\n" +
+                "  border-radius: 5px;\n" +
+                "}" +
+                "</code></pre>" +
+                "<p>Ce code crée une grille avec six éléments disposés en trois colonnes, avec un espace de <span>10px</span> entre les éléments.</p>"
         },
         {
-            numero: 4, 
-            title: "<h2>Chapitre 4 : Typographie et couleurs</h2>", 
+            numero: 4,
+            title: "<h2>Chapitre 4 : Typographie et couleurs</h2><hr>",
             content: "<p><b>Sous-titres du chapitre 4 :</b></p>" +
                 "<ul>" +
-                    "<li>Propriétés de texte : font-family, font-size, font-weight, line-height, etc.</li>" +
-                    "<li>Gestion des polices : Google Fonts et les polices personnalisées</li>" +
-                    "<li>Couleurs : hexadécimal, RGB, HSL, et opacité</li>" +
-                    "<li>Espacement et alignement de texte</li>" +
-                    "<li>Exemples : création de menus et de titres stylisés</li>" +
+                "<li>Propriétés de texte : font-family, font-size, font-weight, line-height, etc.</li>" +
+                "<li>Gestion des polices : Google Fonts et les polices personnalisées</li>" +
+                "<li>Couleurs : hexadécimal, RGB, HSL, et opacité</li>" +
+                "<li>Espacement et alignement de texte</li>" +
+                "<li>Exemples : création de menus et de titres stylisés</li>" +
                 "</ul>" +
                 "<br><p><span style='font-weight:bold;'>Important :</span> La typographie est cruciale pour améliorer l'accessibilité et l'expérience utilisateur sur un site web.</p>" +
                 "<br><p><b>Exemple :</b></p>" +
@@ -307,15 +443,15 @@ export const dataCategorie = {
                 "<br><p><b>Résultat :</b> Les titres &lt;h1&gt; utiliseront la police Arial et auront une taille de 24px, tandis que le texte des paragraphes sera gris foncé (#333) avec un interlignage de 1.6.</p>"
         },
         {
-            numero: 5, 
-            title: "<h2>Chapitre 5 : Animations et transitions</h2>", 
+            numero: 5,
+            title: "<h2>Chapitre 5 : Animations et transitions</h2><hr>",
             content: "<p><b>Sous-titres du chapitre 5 :</b></p>" +
                 "<ul>" +
-                    "<li>Introduction aux transitions CSS : durée, timing, et propriétés transitionnées</li>" +
-                    "<li>Animations CSS : @keyframes et propriétés d'animation</li>" +
-                    "<li>Création d'effets dynamiques : survol, clics, animations automatiques</li>" +
-                    "<li>Utilisation avancée de transform, translate, rotate et scale</li>" +
-                    "<li>Exemples pratiques : création d'animations de boutons et de cartes interactives</li>" +
+                "<li>Introduction aux transitions CSS : durée, timing, et propriétés transitionnées</li>" +
+                "<li>Animations CSS : @keyframes et propriétés d'animation</li>" +
+                "<li>Création d'effets dynamiques : survol, clics, animations automatiques</li>" +
+                "<li>Utilisation avancée de transform, translate, rotate et scale</li>" +
+                "<li>Exemples pratiques : création d'animations de boutons et de cartes interactives</li>" +
                 "</ul>" +
                 "<br><p><span style='font-weight:bold;'>Important :</span> Les transitions et animations CSS permettent d'ajouter des interactions visuelles dynamiques sans JavaScript.</p>" +
                 "<br><p><b>Exemple :</b></p>" +
@@ -329,7 +465,7 @@ export const dataCategorie = {
                 "</code></pre>" +
                 "<br><p><b>Résultat :</b> Un élément &lt;div&gt; glissera de la gauche à sa position initiale en 2 secondes avec un effet de fluidité.</p>"
         }
-    ],    
+    ],
     js: [
         { numero: 1, title: "Les bases JS", content: "Contenu des bases JS" },
         { numero: 2, title: "Le JS avancé", content: "Contenu du JS avancé" },

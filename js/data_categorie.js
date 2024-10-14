@@ -23,7 +23,7 @@ const dataCategorie = [
         title: "Les cours CSS",
         content0: "<h3><a href='detailCours.html?langage=css&numero=1' class='boutoncours'><span>Chapitre 1 :</span> Les bases du CSS</a></h3>",
         content1: "<h3><a href='detailCours.html?langage=css&numero=2' class='boutoncours'><span>Chapitre 2 :</span> Sélecteurs et spécificité</a></h3>",
-        content2: "<h3><a href='detailCours.html?langage=css&numero=3' class='boutoncours'><span>Chapitre 3 :</span> Mise en page avec CSS</a></h3>",
+        content2: "<h3><a href='detailCours.html?langage=css&numero=3' class='boutoncours'><span>Chapitre 3 :</span> Mise en page avec CSS (Flex / Grid)</a></h3>",
         content3: "<h3><a href='detailCours.html?langage=css&numero=4' class='boutoncours'><span>Chapitre 4 :</span> Typographie et couleurs</a></h3>",
         content4: "<h3><a href='detailCours.html?langage=css&numero=5' class='boutoncours'><span>Chapitre 5 :</span> Animations et transitions</a></h3>"
     },
