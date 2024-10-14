@@ -223,7 +223,6 @@ export const dataCategorie = {
             numero: 1,
             title: "<h1>Chapitre 1 : Les bases du CSS</h1><hr>",
             content: "CSS est le langage que nous utilisons pour styliser un document HTML. Le CSS décrit comment les éléments HTML doivent être affichés. Ce tutoriel vous apprendra le CSS du basique au avancé." +
-                "<br><h2>Chapitre 1 : Introduction à CSS</h2>" +
                 "<br><p><b>Sous-titres du chapitre 1 :</b></p>" +
                 "<ul>" +
                 "<li>Qu'est-ce que le CSS ?</li>" +
