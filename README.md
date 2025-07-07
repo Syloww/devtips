@@ -4,9 +4,6 @@
 <h1 align="center">DEV TIPS</h1>
 <h3 align="center">Le site regroupant un maximum d'astuces et de cours sur le développement web !</h3>
 
-<h3 align="left">Créé par :</h3>
-<a href="https://www.instagram.com/salim_glc/"> Salim GLENAC </a>
-
 <h3 align="left">Remerciements :</h3>
 <a href="https://github.com/arthurklr"> Arthur </a>
 
@@ -29,10 +26,6 @@ DEV TIPS est un site conçu pour les développeurs, débutants comme confirmés,
 <p align="justify">
 L’objectif de DEV TIPS est de rendre accessible l’apprentissage du développement web à tous. Grâce à des explications claires, des exemples concrets et des astuces utiles, ce site vise à accompagner chaque utilisateur dans son parcours d'apprentissage et à l’aider à se perfectionner. Que vous soyez un étudiant, un autodidacte ou un professionnel cherchant à se tenir à jour, DEV TIPS est là pour vous guider.
 </p>
-
-<h3 align="left">Contact :</h3>
-<p>Pour toute question ou suggestion, n'hésitez pas à nous contacter via <a href="#">bientot...</a>.</p>
-
 
 <p align="left">
 </p>
