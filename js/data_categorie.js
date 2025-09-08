@@ -30,9 +30,26 @@ const dataCategorie = [
     {
         id: "3",
         title: "Les cours JavaScript",
-        content0: "<h3><a href='detailCours.html?langage=js&numero=1' class='boutoncours'>Les bases JS</a></h3>",
-        content1: "<h3><a href='detailCours.html?langage=js&numero=2' class='boutoncours'>Le JS</a></h3>",
-        content2: "<h3><a href='detailCours.html?langage=js&numero=3' class='boutoncours'>JS</a></h3>"
+        content0: "<h3><a href='detailCours.html?langage=javascript&numero=1' class='boutoncours'><span>Chapitre 1 :</span> Introduction à JavaScript</a></h3>",
+        content1: "<h3><a href='detailCours.html?langage=javascript&numero=2' class='boutoncours'><span>Chapitre 2 :</span> Variables et types de données</a></h3>",
+        content2: "<h3><a href='detailCours.html?langage=javascript&numero=3' class='boutoncours'><span>Chapitre 3 :</span> Opérateurs et expressions</a></h3>",
+        content3: "<h3><a href='detailCours.html?langage=javascript&numero=4' class='boutoncours'><span>Chapitre 4 :</span> Structures de contrôle</a></h3>",
+        content4: "<h3><a href='detailCours.html?langage=javascript&numero=5' class='boutoncours'><span>Chapitre 5 :</span> Fonctions</a></h3>"
+    },
+    {
+        id: "6",
+        title: "Les cours React",
+        content0: "<h3><a href='detailCours.html?langage=react&numero=1' class='boutoncours'><span>Chapitre 1 :</span> Introduction à React</a></h3>",
+        content1: "<h3><a href='detailCours.html?langage=react&numero=2' class='boutoncours'><span>Chapitre 2 :</span> Installation et configuration</a></h3>",
+        content2: "<h3><a href='detailCours.html?langage=react&numero=3' class='boutoncours'><span>Chapitre 3 :</span> Composants et JSX</a></h3>",
+        content3: "<h3><a href='detailCours.html?langage=react&numero=4' class='boutoncours'><span>Chapitre 4 :</span> Props et State</a></h3>",
+        content4: "<h3><a href='detailCours.html?langage=react&numero=5' class='boutoncours'><span>Chapitre 5 :</span> Gestion des événements</a></h3>"
+    },
+    {
+        id: "7",
+        title: "Les cours Node.js",
+        content0: "<h3><a href='detailCours.html?langage=nodejs&numero=1' class='boutoncours'><span>Chapitre 1 :</span> Introduction à Node.js</a></h3>",
+        content1: "<h3><a href='detailCours.html?langage=nodejs&numero=2' class='boutoncours'><span>Chapitre 2 :</span> Installation et premier serveur</a></h3>"
     },
     {
         id: "4",
@@ -46,4 +63,5 @@ const dataCategorie = [
     }
 ];
 
-export default dataCategorie;
+// Rendre la variable globale
+window.dataCategorieList = dataCategorie;

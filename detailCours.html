@@ -4,129 +4,251 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEVTIPS</title>
+    <title>Détail du cours - DevTips</title>
     <!-- SEO -->
     <meta name="description"
-        content="Apprenez à coder avec des cours complets sur HTML, JavaScript, PHP et SQL. Des tutoriels simples et accessibles pour débutants et développeurs confirmés.">
+        content="Découvrez le contenu détaillé de nos cours de développement web. Apprenez avec des leçons interactives et des projets pratiques.">
     <meta name="keywords"
-        content="apprendre à coder, HTML, JavaScript, PHP, SQL, tutoriels, cours de programmation, développement web, devtips">
+        content="cours programmation, HTML, CSS, JavaScript, React, Node.js, PHP, SQL, formation web, tutoriels gratuits">
     <meta name="robots" content="index, follow">
-    <meta name="author" content="GLENAC Salim">
+    <meta name="author" content="DevTips Team">
     <meta name="language" content="fr">
     <!-- STYLE -->
-    <link rel="stylesheet" media="screen and (max-width: 680px)" href="styles/mobile.css">
-    <link rel="stylesheet" media="screen and (min-width: 680px)" href="styles/index.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="styles/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 769px)" href="styles/index.css">
+    <link rel="stylesheet" href="styles/cartoonloading.css">
+    <link rel="stylesheet" href="styles/notif.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Prism.js for code highlighting -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
 </head>
 
 <body>
-    <section class="container">
-        <section class="barrelateral cacher">
-            <section>
-                <div class="barrelaterallien">
-                    <div class="lienicon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fb4c28"
-                            class="bi bi-house" viewBox="0 0 16 16">
-                            <path
-                                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
-                        </svg>
-                        <a href="index.html" class="barrelateraltxt"><span>Home</span></a>
-                    </div>
-                    <div class="lienicon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                            class="bi bi-lightbulb" viewBox="0 0 16 16">
-                            <path
-                                d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1" />
-                        </svg>
-                        <a href="inspiration.html" class="barrelateraltxt">Inspiration</a>
-                    </div>
-                    <div class="lienicon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                            class="bi bi-pin-angle" viewBox="0 0 16 16">
-                            <path
-                                d="M9.828.722a.5.5 0 0 1 .354.146l4.95 4.95a.5.5 0 0 1 0 .707c-.48.48-1.072.588-1.503.588-.177 0-.335-.018-.46-.039l-3.134 3.134a6 6 0 0 1 .16 1.013c.046.702-.032 1.687-.72 2.375a.5.5 0 0 1-.707 0l-2.829-2.828-3.182 3.182c-.195.195-1.219.902-1.414.707s.512-1.22.707-1.414l3.182-3.182-2.828-2.829a.5.5 0 0 1 0-.707c.688-.688 1.673-.767 2.375-.72a6 6 0 0 1 1.013.16l3.134-3.133a3 3 0 0 1-.04-.461c0-.43.108-1.022.589-1.503a.5.5 0 0 1 .353-.146m.122 2.112v-.002zm0-.002v.002a.5.5 0 0 1-.122.51L6.293 6.878a.5.5 0 0 1-.511.12H5.78l-.014-.004a5 5 0 0 0-.288-.076 5 5 0 0 0-.765-.116c-.422-.028-.836.008-1.175.15l5.51 5.509c.141-.34.177-.753.149-1.175a5 5 0 0 0-.192-1.054l-.004-.013v-.001a.5.5 0 0 1 .12-.512l3.536-3.535a.5.5 0 0 1 .532-.115l.096.022c.087.017.208.034.344.034q.172.002.343-.04L9.927 2.028q-.042.172-.04.343a1.8 1.8 0 0 0 .062.46z" />
-                        </svg>
-                        <a href="librairie.html" class="barrelateraltxt">Librairies</a>
-                    </div>
-                    <div class="lienicon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                            class="bi bi-backpack" viewBox="0 0 16 16">
-                            <path
-                                d="M4.04 7.43a4 4 0 0 1 7.92 0 .5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14M4 9.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm1 .5v3h6v-3h-1v.5a.5.5 0 0 1-1 0V10z" />
-                            <path
-                                d="M6 2.341V2a2 2 0 1 1 4 0v.341c2.33.824 4 3.047 4 5.659v5.5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5V8a6 6 0 0 1 4-5.659M7 2v.083a6 6 0 0 1 2 0V2a1 1 0 0 0-2 0m1 1a5 5 0 0 0-5 5v5.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V8a5 5 0 0 0-5-5" />
-                        </svg>
-                        <a href="cours.html" class="barrelateraltxt">Education</a>
-                    </div>
-                    <div class="lienicon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                            class="bi bi-cup-hot" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6zM13 12.5a2 2 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5M2.64 13.825 1.123 7h11.754l-1.517 6.825A1.5 1.5 0 0 1 9.896 15H4.104a1.5 1.5 0 0 1-1.464-1.175" />
-                            <path
-                                d="m4.4.8-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 3.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 3.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 3 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 4.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 6.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 6.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 6 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 7.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.252.382l-.019.025-.005.008-.002.002A.5.5 0 0 1 9.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 9.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 9 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 10.4.8" />
-                        </svg>
-                        <a href="blog.html" class="barrelateraltxt">Blog</a>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <div class="lienicon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                        class="bi bi-gear" viewBox="0 0 16 16">
-                        <path
-                            d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0" />
-                        <path
-                            d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z" />
-                    </svg>
-                    <a href="credits.html" class="barrelateraltxt">Credits</a>
-                </div>
-                <hr>
-                <div class="footerlateral">
-                    <div>
-                        Privacy Policies
-                    </div>
-                    <div>
-                        Legal Notice
-                    </div>
-                    <div>
-                        @sylow
-                    </div>
-                </div>
-            </section>
-        </section>
-        <section class="container2">
-            <div class="header">
-                <div class="titre">
-                    <a href="index.html">
-                        <h2>COURS ! </h2>
-                    </a>
-                </div>
-                <div class="headerdroit">
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" id="menu"
-                            class="bi bi-list" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-                        </svg>
-                    </div>
-                </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <i class="fas fa-code"></i>
+                    <span>DevTips</span>
+                </a>
             </div>
-
-            <div class="breadcrumb" id="breadcrumb">
-                <!-- Le fil d'Ariane sera généré ici -->
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">
+                    <i class="fas fa-home"></i>
+                    <span>Accueil</span>
+                </a>
+                <a href="cours.html" class="nav-link">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Cours</span>
+                </a>
+                <a href="inspiration.html" class="nav-link">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Inspiration</span>
+                </a>
+                <a href="librairie.html" class="nav-link">
+                    <i class="fas fa-book"></i>
+                    <span>Ressources</span>
+                </a>
+                <a href="blog.html" class="nav-link">
+                    <i class="fas fa-blog"></i>
+                    <span>Blog</span>
+                </a>
             </div>
-            <h1 id="courseTitle"></h1>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-            <div id="courseContent"></div>
-
-        </section>
+    <!-- Breadcrumb -->
+    <section class="breadcrumb-section">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="index.html">Accueil</a>
+                <i class="fas fa-chevron-right"></i>
+                <a href="cours.html">Cours</a>
+                <i class="fas fa-chevron-right"></i>
+                <span id="courseTitle">Chargement...</span>
+            </nav>
+        </div>
     </section>
 
+    <!-- Course Header -->
+    <section class="course-header-section">
+        <div class="container">
+            <div class="course-header-content">
+                <div class="course-info">
+                    <div class="course-badge" id="courseBadge">
+                        <i class="fas fa-star"></i>
+                        <span>Populaire</span>
+                    </div>
+                    <h1 id="courseTitleMain">Chargement du cours...</h1>
+                    <p id="courseDescription">Description du cours en cours de chargement...</p>
+                    <div class="course-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span id="courseDuration">0 heures</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-book"></i>
+                            <span id="courseChapters">0 chapitres</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-users"></i>
+                            <span id="courseStudents">0 étudiants</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-star"></i>
+                            <span id="courseRating">0/5</span>
+                        </div>
+                    </div>
+                    <div class="course-actions">
+                        <button class="btn btn-primary btn-large" id="startCourseBtn">
+                            <i class="fas fa-play"></i>
+                            Commencer le cours
+                        </button>
+                        <button class="btn btn-secondary" id="bookmarkBtn">
+                            <i class="far fa-bookmark"></i>
+                            Ajouter aux favoris
+                        </button>
+                    </div>
+                </div>
+                <div class="course-progress">
+                    <div class="progress-card">
+                        <h3>Votre progression</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                        </div>
+                        <p class="progress-text" id="progressText">0% complété</p>
+                        <div class="progress-stats">
+                            <div class="stat">
+                                <span class="stat-number" id="completedChapters">0</span>
+                                <span class="stat-label">Chapitres terminés</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" id="remainingChapters">0</span>
+                                <span class="stat-label">Chapitres restants</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Course Content -->
+    <section class="course-content-section">
+        <div class="container">
+            <div class="course-layout">
+                <!-- Sidebar -->
+                <aside class="course-sidebar">
+                    <div class="sidebar-content">
+                        <h3>Table des matières</h3>
+                        <div class="chapter-list" id="chapterList">
+                            <!-- Chapters will be loaded here -->
+                        </div>
+                    </div>
+                </aside>
 
-    <script src="js/fil.js"></script>
+                <!-- Main Content -->
+                <main class="course-main">
+                    <div class="lesson-content" id="lessonContent">
+                        <div class="loading-state">
+                            <i class="fas fa-spinner fa-spin"></i>
+                            <p>Chargement du contenu...</p>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Courses -->
+    <section class="related-courses">
+        <div class="container">
+            <h2>Cours similaires</h2>
+            <div class="courses-grid" id="relatedCoursesGrid">
+                <!-- Related courses will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-code"></i>
+                        <span>DevTips</span>
+                    </div>
+                    <p>La plateforme d'apprentissage du développement web la plus complète et gratuite.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Cours</h3>
+                    <ul>
+                        <li><a href="cours.html?categorie=html">HTML & CSS</a></li>
+                        <li><a href="cours.html?categorie=javascript">JavaScript</a></li>
+                        <li><a href="cours.html?categorie=react">React</a></li>
+                        <li><a href="cours.html?categorie=nodejs">Node.js</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Ressources</h3>
+                    <ul>
+                        <li><a href="librairie.html">Documentation</a></li>
+                        <li><a href="inspiration.html">Inspiration</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="credits.html">Crédits</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Aide</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Communauté</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DevTips. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">CGU</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Notification -->
+    <div id="notification" class="notification">
+        <i class="fas fa-bell"></i>
+        <span>Progression sauvegardée !</span>
+        <button class="notification-close">&times;</button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
     <script src="js/menu.js"></script>
-    <script type="module" src="js/data.js"></script>
-    <script type="module" src="js/detailCours.js"></script>
+    <script src="js/notif.js"></script>
+    <script src="js/detailCours.js"></script>
 </body>
+
+</html>
